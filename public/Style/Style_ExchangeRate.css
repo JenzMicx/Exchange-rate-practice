@@ -1,0 +1,146 @@
+/*Import Googlr Font*/
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400&display=swap');
+
+* {
+    font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(39, 58, 58);
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.Currency-App {
+    background-color: darkslategray;
+    color: #fff;
+    padding: 40px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.Currency-App header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.Currency-App form {
+    margin: 20px 0 10px 0;
+}
+
+form :where(input, select, button) {
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    color: darkslategray;
+}
+
+form input {
+    height: 50px;
+    border: 1px solid #fff;
+    font-size: 22px;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+form input:focus {
+    padding: 0 15px;
+    border: 3px solid rgb(1, 31, 23);
+    background: #fff;
+}
+
+form .drop-list {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select-box select {
+    width: auto;
+    font-size: 16px;
+    background: darkslategray;
+    color: #fff;
+}
+
+.select-box select::-webkit-scrollbar {
+    width: 8px;
+}
+
+.select-box select::-webkit-scrollbar-track {
+    background: darkslategray;
+}
+
+.select-box select::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+.drop-list .icon {
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.drop-list .select-box {
+    display: flex;
+    width: 115px;
+    height: 45px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    background: darkslategray;
+    color: #000;
+}
+
+.select-box img {
+    max-width: 50px;
+}
+
+form .exchange-rate {
+    font-size: 17px;
+    margin: 10px 0 30px;
+}
+
+/*form button {
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    background: #fff;
+    transition: backgroud 0.3s ease, transfrom 0.2s ease;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-click {
+    align-items: center;
+    justify-content: center;
+}
+
+form button:hover {
+    background: #333;
+    color: #fff;
+}
+
+form button:active {
+    transform: scale(0.95);
+}
+*/
+
+.getting-rate {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 25px;
+}
