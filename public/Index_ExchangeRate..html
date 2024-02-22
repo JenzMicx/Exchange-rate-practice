@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate Currency</title>
+    <!-- FontAweome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+</head>
+
+<body>
+    <div class="Currency-App">
+        <header>Exchange-Rate Currency</header>
+        <form action="#">
+            <div class=" amount">
+                <p id="font-App">Enter Amount</p>
+                <input type="text" value="1" id="currency">
+            </div>
+            <div class="drop-list">
+                <div class="from">
+                    <p>Form</p>
+                    <div class="select-box">
+                        <img src="https://flagsapi.com/SG/shiny/64.png" alt="flag">
+                        <select name="" id="init-money">
+                        </select>
+                    </div>
+                </div>
+                <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-box">
+                        <img src="https://flagsapi.com/TH/shiny/64.png" alt="flag">
+                        <select name="" id="final-money">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="getting-rate">Getting Change Rate..</div>
+            <!--<button id="btn-click">Get Exchange Rate</button>-->
+        </form>
+
+    </div>
+    <!--Link file-->
+    <link rel="stylesheet" href="Style/Style_ExchangeRate.css">
+    <script src="../Country_list.js"></script>
+    <script src="../server_ExchangeRate.js"></script>
+    <!--<script src="../App.js"></script>-->
+</body>
+
+</html>
